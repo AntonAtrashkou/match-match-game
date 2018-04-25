@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: violet;
+    /* background-image: url(../promo/ultrabackgr.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    height: 100%; 
+}
+main {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    background-color: rgb(173, 182, 47);
+    /* position: absolute; */
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: solid green;
+    background: yellow;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    border: solid blue;
+    background: blueviolet;
+}
+
+.victory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: solid  rgb(40, 31, 160);
+    background: rgb(80, 149, 196);
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: solid  rgb(230, 78, 8);
+    background: rgb(184, 74, 74);
+}
+
+.score table{
+    border: solid black;
+}
+
+.score th{
+    border: solid black;
+}
+
+.score td{
+    border: solid black;
+}
+
+.hide {
+    display: none;
+}
